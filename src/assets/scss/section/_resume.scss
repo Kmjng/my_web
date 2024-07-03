@@ -1,5 +1,5 @@
 #resume {
-    
+    padding-top: 50px; /* 헤더의 높이만큼 body에 패딩을 추가합니다. */
     margin-top: 100px; // 상단 여백 설정 예시
 
     .resume__title {
@@ -15,6 +15,7 @@
         width: 80%;
         max-width : 1900px;
         margin: 0 auto  ; // 좌우 가운데 정렬
+
         padding: 16px; /* 내부 콘텐츠와 경계(여기서는 안쪽 여백) 사이의 공간을 설정 */
         display: flex;
         justify-content: space-between;

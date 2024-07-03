@@ -1,8 +1,9 @@
 #portfolio {
+    padding-top: 50px; /* 헤더의 높이만큼 body에 패딩을 추가합니다. */
     width: 80%;
     max-width : 1900px;
     margin: 0 auto  ; // 좌우 가운데 정렬
-    
+
     .port__inner {
         flex-direction: column;
         height: 100%;

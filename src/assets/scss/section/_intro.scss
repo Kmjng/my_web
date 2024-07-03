@@ -8,11 +8,10 @@
     align-items: center; // 세로 방향 가운데 정렬
     
     z-index: 2; /* intro가 background 위에 오도록 z-index 설정 */
-  
     margin-top: 100px; // 상단 여백 설정 예시
   
     background-color: blue; /* 배경색 설정 */
-    
+
     .inner__left {
       justify-content: space-between; /* 위아래로 공간을 균등하게 분배 */
       display: flex;
