@@ -9,6 +9,9 @@ const App = () => {
         <Routes>
             <Route path="/" element={<HomeView />} />
         </Routes>
+
+
+
     </BrowserRouter>
     );
 };

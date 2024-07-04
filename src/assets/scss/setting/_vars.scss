@@ -35,5 +35,7 @@
 }
   
 body {
-    background-color: var(--mainBg-color);
-}
+    background-image: url('/assets/img/wallpaper.png'); // 이미지 경로 설정
+    background-size: cover; // 배경 이미지 크기 조절
+    background-position: center; // 배경 이미지 위치 조절
+  }
