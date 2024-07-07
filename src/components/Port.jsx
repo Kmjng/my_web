@@ -16,7 +16,7 @@ const Port = () => {
             <p className="desc">
                 분석 관하여 몇줄 요약
             </p>
-            <a href="/assets/documents/분류모델링을 통한 비만판별모델.pdf" target="_blank" className="site">📑 PPT 보기</a>
+            <a href="/bodyfat.pdf" target="_blank" className="site">📑 PPT 보기</a>
             <a href="https://github.com/Kmjng/BodyFat-Predict" target="_blank" className="code">
                 <img src="assets/img/git.svg" alt="GitHub 아이콘" />
                 <span>Code 보기</span>
