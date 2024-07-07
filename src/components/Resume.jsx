@@ -4,7 +4,7 @@ const Resume = () => {
     return (
         <section id="resume">
             <div className="resume__title">
-                RESUME
+                résumé <em>이력 사항</em>
             </div>
             <div className="resume__inner">
                 <div className="education">
@@ -28,7 +28,7 @@ const Resume = () => {
                     <div className="license_1">
                         <div>📖 데이터분석 준전문가(ADsP) - 2024.03. 취득 </div>
                         <div>📖 SQL 개발자(SQLD)  - 2024.04. 취득  </div>
-                        <div>📖 빅데이터분석기사 - 2024.06. (현) 필기합격 </div>
+                        <div>📖 빅데이터분석기사 - 2024.07.12. 취득 </div>
                     </div>
                 </div>
                 <div className="skills">
@@ -36,6 +36,7 @@ const Resume = () => {
                     <div className="skills_1">
                         <div>📊 Python/R </div>
                         <div>📊 SQL (Oracle, MariaDB)  </div>
+                        <div>📊 Tableau  </div>
                         <br />
                     </div>
                 </div>

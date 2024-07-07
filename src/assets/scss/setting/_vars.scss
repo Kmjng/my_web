@@ -9,6 +9,7 @@
     --subBg300: #81887c;
     --subBg400: #afa7a2;
     --subBg500: #a6afa2;
+    --subBg600: #94a4a6;
   
     --white: #fff;
     --black: #000;
@@ -38,4 +39,5 @@ body {
     background-image: url('/assets/img/wallpaper.png'); // 이미지 경로 설정
     background-size: cover; // 배경 이미지 크기 조절
     background-position: center; // 배경 이미지 위치 조절
+    font-family: "SUIT-Medium";
   }

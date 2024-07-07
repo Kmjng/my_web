@@ -1,4 +1,5 @@
 #portfolio {
+    font-family: 'SUIT-Medium';
     padding-top: 50px; /* 헤더의 높이만큼 body에 패딩을 추가합니다. */
     width: 80%;
     max-width : 1900px;
@@ -13,8 +14,9 @@
         justify-content: space-between;
         
         .port__title {
+            font-family: 'SUIT-Bold';
             text-align: center; /* 텍스트를 가운데 정렬 */
-            font-size: 2.5rem; /* 글자 크기 조정 */
+            font-size: 2.8rem; /* 글자 크기 조정 */
             font-weight: bold; /* 글자 두껍게 설정 */
             margin-bottom: 20px; /* 아래 여백 추가 */
             
@@ -29,7 +31,7 @@
             &.p1 {
                 margin-top: 20px;
                 background-color: var(--subBu300); /* 변수로 배경색 설정 */
-                color: #ffffff; /* 흰색 글씨 */
+                color: black; /* 글씨색 */
                 padding: 10px; /* 내부 여백 */
                 margin-bottom: 80px; /* 아래 여백 */
             }
@@ -46,26 +48,26 @@
                 margin-bottom: 10px; /* 아래 여백 추가 */
             }
             
-            .img {
-                display: block;
-                transition: margin-top 0.3s; /* 마진 변화에 따른 애니메이션 설정 */
-                font-size: 20px; /* 글자 크기 조정 */
-                
-                &:hover {
-                    margin-top: 0; /* 호버시 마진을 0으로 설정 */
-                }
-                
-                img {
-                    border-radius: 5px; /* 이미지 모서리 둥글게 설정 */
-                    filter: saturate(0%); /* 채도 조정 */
-                    transition: all 0.3s; /* 모든 속성에 대한 애니메이션 설정 */
-                    
-                    &:hover {
-                        filter: saturate(100%); /* 호버시 채도를 100%로 설정 */
-                    }
-                }
-            }
+            /* code보기 */
+            .link-container {
+                display: inline-flex; /* 인라인 플렉스박스로 요소들을 나란히 배치 */
+                align-items: center; /* 요소들을 수직으로 가운데 정렬 */
+                text-decoration: none; /* 링크 밑줄 제거 */
+                color: black; /* 텍스트 색상 지정 */
+              }
+              
+              .icon {
+                width: 20px; /* 아이콘 너비 조정 */
+                height: 20px; /* 아이콘 높이 조정 */
+                margin-right: 5px; /* 아이콘과 텍스트 사이 여백 설정 */
+              }
+              
+              .link-text .site{
+                font-size: 14px; /* 텍스트 폰트 크기 설정 */
+              }
             
+
+
             .title {
                 font-size: 2rem; /* 글자 크기 조정 */
                 text-align: center; /* 텍스트를 가운데 정렬 */
@@ -97,7 +99,7 @@
                     margin-right: 0.5rem; /* 텍스트와 이미지 사이의 간격 조정 */
                 }
                 
-                img {
+                link_img {
                     margin-left: 0.5rem; /* 이미지와 텍스트 사이의 간격 조정 */
                     width: 2rem; /* 이미지의 너비 설정 */
                     height: auto; /* 이미지의 높이 자동 설정 */
@@ -114,7 +116,6 @@
             height: auto; /* 높이를 자동으로 설정 */
             top: 68px; /* 위쪽 위치를 68픽셀로 설정 */
             z-index: 1000; /* z-index를 1000으로 설정 */
-            background-color: var(--mainBg-color); /* 변수로 배경색 설정 */
         }
         
         .port__item {

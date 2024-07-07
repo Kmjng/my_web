@@ -1,12 +1,20 @@
 #resume {
+    font-family: 'SUIT-Medium';
     padding-top: 50px; /* 헤더의 높이만큼 body에 패딩을 추가합니다. */
     margin-top: 100px; // 상단 여백 설정 예시
 
     .resume__title {
+        font-family: 'SUIT-Bold';
         text-align: center; /* 텍스트를 가운데 정렬 */
-        font-size: 2.5rem; /* 글자 크기 조정 */
+        font-size: 2.8rem; /* 글자 크기 조정 */
         font-weight: bold; /* 글자 두껍게 설정 */
         margin-bottom: 20px; /* 아래 여백 추가 */
+        
+        em {
+            font-size: 2vw;
+            font-weight: 400;
+            line-height: 2;
+        }
     }
     
     .resume__inner {
@@ -21,14 +29,15 @@
         justify-content: space-between;
         
         .education, .experience, .license, .skills {
-            background-color: #000000; /* 까만색 배경 */
-            color: #ffffff; /* 흰색 글씨 */
+            background-color: rgb(202,214,240,0.2); 
+            color: black; /*  글씨색 */
             padding: 10px; /* 내부 여백 */
             margin-bottom: 80px; /* 아래 여백 */
             
             h2 {
                 text-align: center; /* 텍스트를 가운데 정렬 */
                 font-size: 1.8rem; /* 글자 크기 조정 */
+                font-family: 'SUIT-Bold';
                 font-weight: bold; /* 글자 두껍게 설정 */
                 margin-top: 20px;
                 margin-bottom: 50px; /* 아래 여백 추가 */

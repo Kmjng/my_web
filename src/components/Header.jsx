@@ -21,7 +21,7 @@ const Header = () => {
                     aria-controls="primary-menu" 
                     aria-expanded="false" 
                     role="button" 
-                    tabindex="0"
+                    tabIndex="0"
                 >
                     <span></span>
                 </div>
