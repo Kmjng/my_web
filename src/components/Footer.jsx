@@ -1,5 +1,6 @@
 import React from 'react';
-
+import gitIcon from "../assets/img/git.png";
+import tistoryIcon from "../assets/img/tistory.png";
 const Footer = () => {
   return (
     <footer id="footer" role="contentinfo">
@@ -26,12 +27,12 @@ const Footer = () => {
               <span className="label">Site</span>
               <div className="contact-info">
                 <div className="social-icons footer-icons">
-                  <a href="https://github.com/Kmjng" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-github"></i>
-                  </a>
-                  <a href="https://hellomars.tistory.com/" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-blogger"></i>
-                  </a>
+                <a href="https://github.com/Kmjng"  target="_blank">
+                <img src={gitIcon} />
+                </a>
+                <a href="https://hellomars.tistory.com/" target="_blank">
+                <img src={tistoryIcon} />
+                </a>
                 </div>
               </div>
             </div>

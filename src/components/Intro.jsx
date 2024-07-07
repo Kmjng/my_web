@@ -1,6 +1,7 @@
 import React from "react";
 import aiImage from '../assets/img/aiimg.png'; // 올바른 상대 경로로 수정
-
+import gitIcon from "../assets/img/git.png";
+import tistoryIcon from "../assets/img/tistory.png";
 
 const Intro = () => {
   return (
@@ -14,20 +15,21 @@ const Intro = () => {
           Kim <br />
           <span className="line"></span> <br />
           Data Analyst
-          <div className="social-icons">
-            <a href="https://github.com/Kmjng" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-github"></i>
-            </a>
-            <a href="https://hellomars.tistory.com/" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-blogger"></i>
-            </a>
+          <div className="intro_link"> 
+          <a href="https://github.com/Kmjng" className="btn" target="_blank">
+          <img src={gitIcon} />
+          <span>IT 관련 학습 깃허브(✍️23.12.~)</span>
+          </a>
+          <a href="https://hellomars.tistory.com/" className="btn" target="_blank">
+          <img src={tistoryIcon} />
+          <span> 데이터 분석 관련 블로그(✍️24.02.~)</span>
+          </a>
           </div>
         </div>
       </div>
       <div className="inner__right">
         <p className="title">HELLO</p>
-        <a href="resume.html" className="btn">Go to Resume Page</a>
-        <a href="portfolio.html" className="btn">Go to Portfolio Page</a>
+        
         <p>내 소개~</p>
       </div>
     </section>
