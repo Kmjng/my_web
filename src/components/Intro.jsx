@@ -1,5 +1,5 @@
 import React from "react";
-import aiImage from '../assets/img/aiimg.png'; // 올바른 상대 경로로 수정
+import myImage from '../assets/img/myimg.png'; // 올바른 상대 경로로 수정
 import gitIcon from "../assets/img/git.png";
 import tistoryIcon from "../assets/img/tistory.png";
 
@@ -8,7 +8,7 @@ const Intro = () => {
     <section id="intro">
       <div className="inner__left">
         <div className="top__part">
-          <img src={aiImage} alt="Profile Image" />
+          <img src={myImage} alt="Profile Image" className="profileImage"/>
         </div>
         <div className="bottom__part">
           Minjeong <br />
