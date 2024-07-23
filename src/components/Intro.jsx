@@ -30,7 +30,7 @@ const Intro = () => {
       <div className="inner__right">
         <p className="title">HELLO</p>
         
-        <p>내 소개~</p>
+        <p>제작 중 입니다. <br/> In progress.. </p>
       </div>
     </section>
   );
