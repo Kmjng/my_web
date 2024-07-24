@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer__info">
           <div className="left-side">
             © 2024 by Minjeong Kim.<br />
-            VITE based
+            React based
           </div>
           <div className="right-side">
             <div className="right-row">

@@ -10,7 +10,7 @@ const Resume = () => {
                 <div className="education">
                     <span><h2>ACADEMIC</h2></span>
                     <div className="education_1">
-                        <div>🏫 2024.02.~ 2024.08. ITWILL 빅데이터 준전문가 45기 </div>
+                        <div>🏫 2024.02.~ 2024.08. ITWILL 빅데이터 전문가 45기 </div>
                         <div>🏫 2021.03.~ 2023.02. 건국대학교 물리학과 석사 (졸업)</div>
                         <div>🏫 2018.03.~ 2021.02. 건국대학교 물리학과 학사 (졸업)</div>
                         <div>🏫 2015.03.~ 2018.02. 한성대학교 전자정보공학과 (중퇴)</div>
@@ -29,14 +29,40 @@ const Resume = () => {
                         <div>📖 데이터분석 준전문가(ADsP) - 2024.03. 취득 </div>
                         <div>📖 SQL 개발자(SQLD)  - 2024.04. 취득  </div>
                         <div>📖 빅데이터분석기사 - 2024.07.12. 취득 </div>
+                        <div>📖 MOS Master - 2020.06.20. 취득 </div>
                     </div>
                 </div>
                 <div className="skills">
                     <h2>SKILLS</h2>
                     <div className="skills_1">
-                        <div>📊 Python/R </div>
-                        <div>📊 SQL (Oracle, MariaDB)  </div>
-                        <div>📊 Tableau  </div>
+                        <div className="skill-item">
+                            <strong className="skn">🗝️ Python/R </strong>
+                            <span className="skc"></span>
+                        </div>
+                        <div className="skill-item">
+                            <strong className="skn">🗝️ SQL (Oracle, MariaDB) </strong>
+                            <span className="skc"></span>
+                        </div>
+                        <div className="skill-item">
+                            <strong className="skn">🗝️ Git  </strong>
+                            <span className="skc"></span>
+                        </div>
+                        <div className="skill-item">
+                            <strong className="skn">🗝️ Tableau  </strong>
+                            <span className="skc"></span>
+                        </div>
+                        <div className="skill-item">
+                            <strong className="skn">🗝️ Microsoft Office </strong>
+                            <span className="skc"></span>
+                        </div>
+                        <div className="skill-item">
+                            <strong className="skn">🗝️ Tensorflow (Framework) </strong>
+                            <span className="skc"></span>
+                        </div>
+                        <div className="skill-item">
+                            <strong className="skn">🗝️ Pytorch (Framework)  </strong>
+                            <span className="skc"></span>
+                        </div>
                         <br />
                     </div>
                 </div>

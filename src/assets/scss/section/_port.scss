@@ -28,6 +28,7 @@
         }
         
         .port__item {
+            
             &.p1 {
                 margin-top: 20px;
                 background-color: rgb(254,210,171, 0.2);  /* 변수로 배경색 설정 */
@@ -108,13 +109,31 @@
                 margin-bottom: 1rem; /* 아래 여백 설정 */
             }
             
-            .desc {
-                font-size: 1.5rem; /* 글자 크기 조정 */
-                width: 85%; 
-                margin: 0 auto; /* 좌우 마진을 auto로 설정하여 가운데 정렬 */
-                line-height: 1.8 ; /* 텍스트의 높이에 비례하여 위아래 간격을 조정 */
-                margin-bottom: 50px; 
+            .details {
+                margin: 0 auto;
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+        
+                .detail-row {
+                    display: flex;
+                    margin-top: 10px;
+                    margin-bottom: 30px;
+        
+                    .label {
+                        font-size: 1.3rem;
+                        width: 100px; 
+                        font-weight: bold;
+                    }
+        
+                    .content {
+                        font-size: 1.3rem;
+                        flex: 1;
+                        margin-left: 10px;
+                    }
+                }
             }
+            
             
             
         }
