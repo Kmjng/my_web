@@ -85,6 +85,45 @@ const Port = () => {
             </div>
             
         </article>
+         {/* WORK 3 */}
+         <article className="port__item p1">
+            <div className="num">WORK 03.</div>
+            <a href="" className="link_0" target="_blank">
+                <img src={goIcon} />
+                <span className="link-desc">ITWILL final project (6인)</span>
+            </a>
+            <h3 className="title">분류모델 기반의 비만 진단 모델</h3>
+            <div className="details">
+                <div className="detail-row">
+                <strong className="label">개요</strong>
+                <span className="content">규제 필요성이 있는 음성 Deep Fake 음악을 구별</span>
+                </div>
+                <div className="detail-row">
+                <strong className="label">역할</strong>
+                <span className="content">음성데이터 전처리(MFCC,GFCC)/ CNN 모델링</span>
+                </div>
+                <div className="detail-row">
+                <strong className="label">사용 툴</strong>
+                <span className="content">Python, Tensorflow, umap</span>
+                </div>
+                <div className="detail-row">
+                <strong className="label">기여도</strong>
+                <span className="content">◆ ◆ ◆ ◆ ◇ </span>
+                </div>
+            </div>
+            
+            <div className="links-wrapper">
+            <a href="/deeplearning1.pdf" className="link-container" target="_blank"  rel="noopener noreferrer">
+            <img src={boardIcon} alt="PDF 아이콘" className="icon" />
+                <span className="link-text">PPT 보기</span>
+            </a>
+            <a href="https://github.com/Kmjng/Voice_Recognition_Deep_Learning" className="link-container" target="_blank" rel="noopener noreferrer">
+                <img src={gitIcon} alt="GitHub 아이콘" className="icon" />
+                <span className="link-text">Code 보기</span>
+            </a>
+            </div>
+            
+        </article>
     </div>
 </section>
 
