@@ -26,10 +26,10 @@ const Resume = () => {
                 <div className="license">
                     <span><h2>LICENSE</h2></span>
                     <div className="license_1">
-                        <div>📖 데이터분석 준전문가(ADsP) - 2024.03. 취득 </div>
+                        <div>📖 빅데이터분석기사 - 2024.07. 취득 </div>
                         <div>📖 SQL 개발자(SQLD)  - 2024.04. 취득  </div>
-                        <div>📖 빅데이터분석기사 - 2024.07.12. 취득 </div>
-                        <div>📖 MOS Master - 2020.06.20. 취득 </div>
+                        <div>📖  데이터분석 준전문가(ADsP) - 2024.03. 취득</div>
+                        <div>📖 MOS Master - 2020.06. 취득 </div>
                     </div>
                 </div>
                 <div className="skills">
@@ -52,7 +52,7 @@ const Resume = () => {
                             <span className="skc"></span>
                         </div>
                         <div className="skill-item">
-                            <strong className="skn">🗝️ Microsoft Office </strong>
+                            <strong className="skn">🗝️ Pytorch (Framework)  </strong>
                             <span className="skc"></span>
                         </div>
                         <div className="skill-item">
@@ -60,7 +60,15 @@ const Resume = () => {
                             <span className="skc"></span>
                         </div>
                         <div className="skill-item">
-                            <strong className="skn">🗝️ Pytorch (Framework)  </strong>
+                            <strong className="skn">🗝️ Linux  </strong>
+                            <span className="skc"></span>
+                        </div>
+                        <div className="skill-item">
+                            <strong className="skn">🗝️ Hadoop  </strong>
+                            <span className="skc"></span>
+                        </div>
+                        <div className="skill-item">
+                            <strong className="skn">🗝️ Microsoft Office   </strong>
                             <span className="skc"></span>
                         </div>
                         <br />

@@ -14,7 +14,7 @@ const Intro = () => {
           Minjeong <br />
           Kim <br />
           <span className="line"></span> <br />
-          Data Analyst
+          Data Analyst/Scientist
           <div className="intro_link"> 
           <a href="https://github.com/Kmjng" className="btn" target="_blank">
           <img src={gitIcon} />
