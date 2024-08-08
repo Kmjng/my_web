@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css");
+@import url("https://websfont.github.io/gmarket/gmarket.css");
+@font-face {
+    font-family: 'SUIT-Medium';
+    src: url('/assets/fonts/suit_medium.ttf') format('truetype');
+    font-weight: 500; /* Medium weight corresponds to 500 */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SUIT-Bold';
+    src: url('/assets/fonts/suit_bold.ttf') format('truetype');
+    font-weight: 500; /* Medium weight corresponds to 500 */
+    font-style: normal;
+}
+
+
+.mont {
+    font-family: "Montserrat";
+}
+.nanum {
+    font-family: "nanumSquareNeo";
+}
+.gmarket {
+    font-family: "gmarket";
+}
+
+
+.suit-medium {
+    font-family: 'SUIT-Medium';
+    font-weight: 500;
+}
+
+.suit-bold {
+    font-family: 'SUIT-Bold';
+    font-weight: 500;
+}
