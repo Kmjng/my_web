@@ -90,9 +90,9 @@ const Port = () => {
             <div className="num">WORK 03.</div>
             <a href="" className="link_0" target="_blank">
                 <img src={goIcon} />
-                <span className="link-desc">ITWILL final project (6인)</span>
+                <span className="link-desc">ITWILL Final Project (6인)</span>
             </a>
-            <h3 className="title">분류모델 기반의 비만 진단 모델</h3>
+            <h3 className="title">AI generated 음원 판별 딥러닝 모델</h3>
             <div className="details">
                 <div className="detail-row">
                 <strong className="label">개요</strong>
