@@ -64,11 +64,11 @@ const Resume = () => {
                             <span className="skc"></span>
                         </div>
                         <div className="skill-item">
-                            <strong className="skn">🗝️ Hadoop  </strong>
+                            <strong className="skn">🗝️ Apache Hadoop/Spark (basic) </strong>
                             <span className="skc"></span>
                         </div>
                         <div className="skill-item">
-                            <strong className="skn">🗝️ Microsoft Office   </strong>
+                            <strong className="skn">🗝️ Microsoft Office </strong>
                             <span className="skc"></span>
                         </div>
                         <br />
