@@ -8,15 +8,12 @@ const Port = () => {
         <section id="portfolio">
     <div className="port__inner">
         <div className="port__title">
-            portfolio <em>데이터분석 작업물</em>
+            ML/DL Portfolio <em>기계학습 작업물</em>
         </div>
           {/* WORK 1 */}
         <article className="port__item p1">
             <div className="num">WORK 01.</div>
-            <a href="https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020002000100&brdScnBltNo=4&brdBltNo=10826" className="link_0" target="_blank">
-                <img src={goIcon} />
-                <span className="link-desc">Computer Vision 개인 프로젝트</span>
-            </a>
+            <span className="link-desc">Computer Vision 개인 프로젝트</span>
             <h3 className="title">파이토치 기반 2D 운전자 감지 프로그램   </h3>
             <div className="details">
                 <div className="detail-row">
@@ -38,7 +35,7 @@ const Port = () => {
             </div>
             
             <div className="links-wrapper">
-            <a href="/bodyfat.pdf" className="link-container" target="_blank"  rel="noopener noreferrer">
+            <a href="/DMS_deeplearning.pdf" className="link-container" target="_blank"  rel="noopener noreferrer">
             <img src={boardIcon} alt="PDF 아이콘" className="icon" />
                 <span className="link-text">PPT 보기</span>
             </a>
@@ -53,10 +50,7 @@ const Port = () => {
          {/* WORK 2 */}
          <article className="port__item p1">
             <div className="num">WORK 02.</div>
-            <a href="" className="link_0" target="_blank">
-                <img src={goIcon} />
-                <span className="link-desc">Team Project (6인)</span>
-            </a>
+            <span className="link-desc">Team Project (6인)</span>
             <h3 className="title">AI generated 음원 판별 딥러닝 모델</h3>
             <div className="details">
                 <div className="detail-row">
