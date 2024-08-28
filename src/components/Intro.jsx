@@ -27,18 +27,19 @@ const Intro = () => {
           <div className="intro_link"> 
           <a href="https://github.com/Kmjng" className="btn" target="_blank">
           <img src={gitIcon} />
-          <span>IT 관련 학습 깃허브(✍️23.12.~)</span>
+          <span>기계학습 관련 학습 깃허브(✍️23.12.~)</span>
           </a>
+          {/*
           <a href="https://hellomars.tistory.com/" className="btn" target="_blank">
           <img src={tistoryIcon} />
-          <span> 데이터 분석 관련 블로그(✍️24.02.~)</span>
-          </a>
+          <span> 블로그(✍️24.02.~)</span>
+          </a> */}
           </div>
         </div>
       </div>
       <div className="inner__right">
         <p className="title">HELLO</p>
-        <p>제작 중 입니다. <br/> In progress.. </p>
+        <p className="title2">제작 중 입니다. <br/> In progress..🐣 </p>
         {/*---추가---*/}
         <div style={{ marginTop: '20px' }}>
           <button onClick={scrollToPortfolio} className="btn2">
